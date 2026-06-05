@@ -14,7 +14,7 @@ If you are using Tinty, please add this to `~/.config/tinty/config.toml` with th
 path = "https://github.com/janfreeman/base16-hyprland-lua"
 name = "base16-hyprland-lua"
 themes-dir = "colors"
-write-to-file = ["~/.config/hypr/colors.lua"] # Path to your Hyprland config and name of generated file
+write-to-file = ["~/.config/hypr/colors.lua"] # Path to your Hyprland config + file name
 hook = "hyprctl reload" # Reloads hyprland after theme change
 supported-systems = ["base16"]
 ```
